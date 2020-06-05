@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@mixin container
+($display: flex, $justify-content: flex-start, $align-items: center) {
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+@mixin container_sp
+($display: flex, $justify-content: flex-start, $align-items: center,
+ $flex-direction:column) {
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    flex-direction: $flex-direction;
+}
